@@ -1,6 +1,11 @@
-"""Module in charge of creating an hyperlink to learn more about the recommendation.
-It wil redirect to a different website, appropiate to learn more about the recommendation.
 """
+Module in charge of creating a hyperlink to learn more about the recommendation. 
+It will be redirected to a different website, appropriate to learn more about the recommendation.
+"""
+# It will not redirect to the recommendation entry on these sites, but to the search results
+# In a full, not MVP, version of this application. I would use the API of each of these websites
+# to return the first result of the exact link. Or even en scrapper if the site was 
+# too good and it did not have an API
 
 def movie_link_builder(title):    
     youtube_link = f"https://www.youtube.com/results?search_query={title}+trailer"

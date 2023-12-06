@@ -1,4 +1,6 @@
 *.env
+*.venv
 *.json
-__pycache*
+*__pycache*
 *_checkpoints
+first*
