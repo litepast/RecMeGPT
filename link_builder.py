@@ -7,7 +7,7 @@ It will be redirected to a different website, appropriate to learn more about th
 # to return the first result of the exact link. Or even en scrapper if the site was 
 # too good and it did not have an API
 
-def get_rec_link2(title, index):
+def get_rec_link(title, index):
     link_builder = {
         0: '<a href="https://open.spotify.com/search/{}/albums">Listen to the Album on Spotify</a>',
         1: '<a href="https://www.mobygames.com/search/?q={}">Check the videogame information on Mobygames</a>',        2: "",
