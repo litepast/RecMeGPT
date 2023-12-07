@@ -30,7 +30,7 @@ This Python app provides media recommendations in response to user input. It fet
   ```
 5. Create .env file with OpenAI APÏ
  ```sh
-    OPENAI_API_KEY=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
+    OPENAI_API_KEY=Your_api_key
   ```
 
 
