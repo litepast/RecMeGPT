@@ -20,13 +20,20 @@ git clone https://github.com/litepast/RecMeGPT.git
   ```
 3. Create a new Virtual Environment
   ```sh
-  python3 -m venv .venv
+  python -m venv .venv
   ```
-4. Install all the libraries from requirements.txt
+4. Activate Virtual Environment (linux/windows)
+  ```sh
+  python -m venv .venv
+  ```
+  ```sh
+  .venv\Scripts\activate.bat
+  ```
+5. Install all the libraries from requirements.txt
   ```sh
   pip install -r requirements.txt
   ```
-5. Create a .env file with OpenAI APÏ
+6. Create a .env file with OpenAI APÏ
  ```sh
  OPENAI_API_KEY=Your_api_key
   ```
