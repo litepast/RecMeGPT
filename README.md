@@ -48,25 +48,15 @@ python -m notebook
 jupiter notebook
 ```
 2. Open the notebook file
-<<<<<<< Updated upstream
-- Once the jupyer server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
-=======
-   Once the jupyter server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
->>>>>>> Stashed changes
+- Once the jupyter server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
 
 3. Run all cells
 - Click on the 'Run All Cells' on the menu 'Run' so the libraries and modules are loaded
 
 4. Enter your input and get the recommendations!
-<<<<<<< Updated upstream
-- At the bottom of cell #3, there will be a textbox and one button, something you like, or anything really, then click the button to try to get the recommendations powered by chatGPT! Each recommendation wil have a description and a link to a site where you can learn more about it.
-=======
-   At the bottom of cell #3, there will be a textbox and one button, something you like, or anything really, then click the button to try to get the recommendations powered by chatGPT! Each recommendation will have a description and a link to a site where you can learn more about it.
->>>>>>> Stashed changes
-
+-  At the bottom of cell #3, there will be a textbox and one button, something you like, or anything really, then click the button to try to get the recommendations powered by chatGPT! Each recommendation will have a description and a link to a site where you can learn more about it.
 
 ## Model Response
-
 The app provides recommendations in a JSON format. The response includes:
 - status: Indicates the success of the recommendation retrieval process (OK or NOK).
 - header: A brief description of why the recommendations are suitable.
