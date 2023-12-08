@@ -33,7 +33,7 @@ git clone https://github.com/litepast/RecMeGPT.git
   ```sh
   pip install -r requirements.txt
   ```
-6. Create a .env file with OpenAI APÏ
+6. Create a config.env file with OpenAI APÏ Key
 - Replace `YOUR_API_KEY` with the key created on [Your OpenAI account](https://platform.openai.com/api-keys), create one if you haven't already!
  ```sh
  OPENAI_API_KEY=YOUR_API_KEY
@@ -45,7 +45,7 @@ git clone https://github.com/litepast/RecMeGPT.git
     python -m notebook
    ```
    ```sh
-      jupiter notebook
+   jupiter notebook
    ```
 2. Open the notebook file
 - Once the jupyer server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
@@ -64,7 +64,7 @@ The app provides recommendations in a JSON format. The response includes:
 - header: A brief description of why the recommendations are suitable.
 - recs: An array containing recommendations for videogames, music albums, films, TV shows, and books, each with their title and a descrption
 
-## YouTube Video with the project running
-  
+## YouTube Video with me showcasing the project
+  https://www.youtube.com/watch?v=cdH9BJd1xGw
  
    
