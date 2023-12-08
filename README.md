@@ -54,7 +54,7 @@ jupiter notebook
 - Click on the 'Run All Cells' on the menu 'Run' so the libraries and modules are loaded
 
 4. Enter your input and get the recommendations!
--  At the bottom of cell #3, there will be a textbox and one button, something you like, or anything really, then click the button to try to get the recommendations powered by chatGPT! Each recommendation will have a description and a link to a site where you can learn more about it.
+-  At the bottom of last cell, there will be a textbox and a button, type in the texbox something you like, or anything really! Then click the button to try to get the recommendations powered by chatGPT! Each recommendation will have a description and a link to a site where you can learn more about it.
 
 ## Model Response
 The app provides recommendations in a JSON format. The response includes:
