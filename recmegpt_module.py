@@ -28,11 +28,11 @@ class RecMeGPT:
         You will return this information in a JSON format, where the JSON has 3 initial parameters,
         The first is 'status', which will be set as "OK" if you can find all the recommendations.
         The second is the 'header', where you tell the user why they could like the recommendations, no more than 30 words.
-        The third is the recommendations, set as "recs", as an array of 5 objects, each for every form of media (as "albums", "games", "movies", "tv" and "books" in that order),
-        each of those objects will have another array of objects, representing the recommendations,
+        The third is the recommendations, set as "recs", as an array of 5 objects, each for every form of media (as "albums", "games", "movies", "tv" and "books"),
+        You will not skip any media for recommendations, it is forbidden.
+        Each of those objects will have another array of objects, representing the recommendations,
         each recommendation object will have 2 parameters, title and description. 
-        The recommendation description will not be longer than 30 words.
-        You will not skip any media for recommendations.
+        The recommendation description will not be longer than 30 words and try to make it sound cool.        
         In case the user input doesn't make sense or you cannot deliver all the recommendations, 
         make the recommendations set to an array empty, the header empty and the status as "NOK".
         """
