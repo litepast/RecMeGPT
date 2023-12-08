@@ -34,8 +34,9 @@ git clone https://github.com/litepast/RecMeGPT.git
   pip install -r requirements.txt
   ```
 6. Create a .env file with OpenAI APÏ
+- Replace `YOUR_API_KEY` with the key created on [Your OpenAI account](https://platform.openai.com/api-keys), create one if you haven't already!
  ```sh
- OPENAI_API_KEY=Your_api_key
+ OPENAI_API_KEY=YOUR_API_KEY
   ```
 
 ## Usage
@@ -47,13 +48,13 @@ git clone https://github.com/litepast/RecMeGPT.git
       jupiter notebook
    ```
 2. Open the notebook file
-   Once the jupyer server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
+- Once the jupyer server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
 
 3. Run all cells
-   Click on the 'Run All Cells' on the menu 'Run' so the libraries and modules are loaded
+- Click on the 'Run All Cells' on the menu 'Run' so the libraries and modules are loaded
 
 4. Enter your input and get the recommendations!
-   At the bottom of cell #3, there will be a textbox and one button, something you like, or anything really, then click the button to try to get the recommendations powered by chatGPT! Each recommendation wil have a description and a link to a site where you can learn more about it.
+- At the bottom of cell #3, there will be a textbox and one button, something you like, or anything really, then click the button to try to get the recommendations powered by chatGPT! Each recommendation wil have a description and a link to a site where you can learn more about it.
 
 
 ## Model Response
