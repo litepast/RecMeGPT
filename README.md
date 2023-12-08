@@ -12,23 +12,23 @@ It doesn't stop with entertainment, you can enter a theme or descriptor, somethi
 ## Installation
 1. Clone the repository:
 ```sh
-   git clone https://github.com/litepast/RecMeGPT.git
+git clone https://github.com/litepast/RecMeGPT.git
 ```
 2. Navigate to the project folder
   ```sh
-     cd RecMeGP
+  cd RecMeGPT
   ```
 3. Create a new Virtual Environment
   ```sh
-     python3 -m venv .venv
+  python3 -m venv .venv
   ```
 4. Install all the libraries from requirements.txt
   ```sh
-     pip install -r requirements.txt
+  pip install -r requirements.txt
   ```
 5. Create a .env file with OpenAI APÏ
  ```sh
-    OPENAI_API_KEY=Your_api_key
+ OPENAI_API_KEY=Your_api_key
   ```
 
 ## Usage
