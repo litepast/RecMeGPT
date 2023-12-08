@@ -41,12 +41,12 @@ git clone https://github.com/litepast/RecMeGPT.git
 
 ## Usage
 1. Start the Jupyter Notebook server with either command on the project folder
-   ```sh
-    python -m notebook
-   ```
-   ```sh
-   jupiter notebook
-   ```
+```sh
+python -m notebook
+```
+```sh
+jupiter notebook
+```
 2. Open the notebook file
 - Once the jupyer server is started (which might look something like http://localhost:8889/tree), open the `recmegpt_notebook.ipynb` file.
 
